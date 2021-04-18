@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+/* Grid */
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "header header header"
+    "content content content"
+    "footer  footer  footer";
+}
+#header {
+    grid-area: header;
+}
+#content {
+    grid-area: content;
+}
+#footer {
+    grid-area: footer;
+}
+/* Grid - end  */
+
+
+/* Element */
+#header {
+    display:flex;
+}
+.title {
+    color: white;
+}
+.quote-block {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+#quote {
+    color: white;
+}
+/* Element - end */
+
+/* Light-saber */
+#light-saber {
+   width: 100%;
+}
+#outer-light {
+    width: 0%;
+    max-width: 475px;
+    transition: 1s width;
+}
+#inner-light {
+    width: 0%;
+    max-width: 465px;
+    transition: 1s width;
+}
+#lightsaber-svg:hover #outer-light {
+    width: 70%;
+}
+#lightsaber-svg:hover #inner-light {
+    width: 68%;
+}
+
+/* Image */
+#galaxy-img {
+    position: relative;
+    width: 80vw;
+    height: auto;
+    background-image: url(./space-icone.png);
+    background-repeat: repeat;
+    margin: auto;
+}
+
+#cockpit-img {
+    width: 80vw;
+    height: auto;
+}
