@@ -12,7 +12,6 @@ function parallax(element) {
       50 - (_mouseY - _h) * 0.09
     }%`;
     let x = `${_depth1}`;
-    console.log(x);
     elem.style.backgroundPosition = x;
   }
 }

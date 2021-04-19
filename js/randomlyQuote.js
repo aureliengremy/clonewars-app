@@ -5,7 +5,7 @@ import {
   epBySeasonFive,
   epBySeasonSix,
   epBySeasonSeven,
-} from "./quotesList";
+} from "./quotesList.js";
 
 const quote = document.querySelector("#quote");
 

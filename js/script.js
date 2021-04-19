@@ -1,10 +1,8 @@
 import { quoteList } from "./quotesList.js";
-import { initQuoteList } from "./randomlyQuote";
+import { initQuoteList } from "./randomlyQuote.js";
 import { parallax } from "./parallax.js";
 
 const btn = document.querySelector("#btn");
-
-console.log(initQuoteList());
 
 btn.addEventListener("click", initQuoteList);
 
