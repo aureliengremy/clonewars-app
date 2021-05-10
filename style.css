@@ -16,6 +16,8 @@ body {
 }
 #content {
     grid-area: content;
+    width: 100vw;
+    height: auto;
 }
 #footer {
     grid-area: footer;
@@ -34,6 +36,11 @@ body {
     position: absolute;
     left: 40%;
     top: 50%;
+}
+.btn-block {
+    position: absolute;
+    left: 50%;
+    top: 80%;
 }
 #quote {
     color: white;
@@ -64,7 +71,7 @@ body {
 /* Image */
 #galaxy-img {
     position: relative;
-    width: 80vw;
+    width: 100vw;
     height: auto;
     background-image: url(./space-icone.png);
     background-repeat: repeat;
@@ -72,6 +79,6 @@ body {
 }
 
 #cockpit-img {
-    width: 80vw;
+    width: 100vw;
     height: auto;
 }
